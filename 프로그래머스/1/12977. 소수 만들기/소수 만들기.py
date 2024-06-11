@@ -5,6 +5,7 @@ def solution(nums):
     
     for comb in combinations(nums, 3):
         s = sum(comb)
+        print(s)
         if is_prime_number(s):
             answer += 1
             
